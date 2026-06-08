@@ -23,11 +23,10 @@ This is sufficient for running the all the scripts locally.
 However, for training and evaluating WavLM you can consider running it in a dedicated machine learning cloud environment, such as Kaggle.
 
 **Data & Checkpoint Notice:**
-Due to GitHub file size limits and licensing restrictions, the raw audio datasets (ASVspoof 5, In-The-Wild corpora) and pre-trained `.pt` / `.ptl` model weights are excluded from this repository. 
-* The **ASVspoof 5** dataset can be requested from the official challenge organizers.
-* External "in-the-wild" datasets (e.g., ElevenLabs, OpenAI generated samples) must be placed in the `FakeAudio/` directory.
+Due to GitHub file size limits and licensing restrictions, the raw audio datasets (ASVspoof 5, In-The-Wild corpora) and pre-trained `.pt` / `.ptl` model weights are excluded from this repository.
 
-* ASVspoof5 dataset: https://huggingface.co/datasets/jungjee/asvspoof5
+* External "in-the-wild" datasets (e.g., ElevenLabs, OpenAI generated samples) must be placed in the `FakeAudio/` directory.
+* **ASVspoof5** dataset: https://huggingface.co/datasets/jungjee/asvspoof5
 * Microsoft WavLM Base+: https://huggingface.co/microsoft/wavlm-base-plus
 
 ## 🚀 Execution Pipelines
