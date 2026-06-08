@@ -1,0 +1,13 @@
+torch>=2.0.0
+torchaudio
+transformers>=4.30.0
+librosa>=0.10.0
+soundfile
+numpy>=1.21.0,<2.0.0
+pandas
+scikit-learn
+tqdm
+matplotlib
+seaborn
+audiomentations
+psutil
