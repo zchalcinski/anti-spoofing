@@ -53,7 +53,7 @@ python src/wavlm-eval-ood.py
 ## 📱 Mobile Deployment (PyTorch Lite)
 *Runs locally* To convert the trained PyTorch model (`.pt`) into an optimized, quantized TorchScript format (`.ptl`) for the Android app, run:
 ```bash
-python utils/mobile_conversion/convert_to_ptlite.py
+utils/mobile_conversion/convert_to_ptlite.py
 ```
 
 ## 📜 License
